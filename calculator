@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+<div class = "calculatorImage" id="calcBackground">
+	<div class ="display" id="display">
+		<h2 id ="result"></h2>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<button type="button" class = "actions" id ="clear">clear</button>
+	<button type="button" class = "actions" id ="backspace">delete</button>
+	<br>
+	<button type="button" class = "button" id ="seven" value ="7">7</button>
+	<button type="button" class = "button" id ="eight" value ="8">8</button>
+	<button type="button" class = "button" id ="nine" value ="9">9</button>
+	<button type="button" class = "operator" id ="divide" value = divide>÷</button>
+	<br>
+	<button type="button" class = "button" id ="four" value ="4">4</button>
+	<button type="button" class = "button" id ="five" value ="5">5</button>
+	<button type="button" class = "button" id ="six" value ="6">6</button>
+	<button type="button" class = "operator" id ="multiply" value = "multiply">x</button>
+	<br>
+	<button type="button" class = "button" id ="one" value="1">1</button>
+	<button type="button" class = "button" id ="two" value = "2">2</button>
+	<button type="button" class = "button" id ="three" value ="3">3</button>
+	<button type="button" class = "operator" id ="subtract" value = "subtract">-</button>
+	<br>
+	<button type="button" class = "button" id ="zero" value ="0">0</button>
+	<button type="button" class = "decimal" id ="decimal" value = ".">.</button>
+	<button type="button" class = "equals" id ="equals" value = "equals">=</button>	
+	<button type="button" class = "operator" id ="add" value = "add">+</button>
+	
+	
+</div>
+
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+

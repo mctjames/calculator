@@ -1,6 +1,10 @@
 // MATH functions
 function divide(a, b){
+	if (b === 0){
+		return "Stop that!"
+	} else {
 	return a / b
+}
 }
 function multiply(a, b){
 	return a * b;
@@ -31,7 +35,7 @@ function operate(operator, a, b){
 }
 
 // VARIABLES 
-const maxLength = 10;
+const maxLength = 15;
 
 var a = "";
 var b = "";

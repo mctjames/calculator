@@ -1,73 +1,105 @@
+@font-face{
+	font-family: 'digital-clock-font';
+	src: url('fonts/digital-7.regular.ttf')
+}
+
+header{
+	margin-top: 75px;
+	text-align: center;
+	font-family: 'digital-clock-font';
+	font-size: 45px;
+}
+
+body{
+	background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/book6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #calcBackground{
 	width: 400px;
-	height: 400px;
-	background-color: white;
+	height: 450px;
+	background-color: #dcdde1;
 	border-style: outset;
 	border-width: 10px;
-	border-color: black;
+	border-color: #dbdbca;
 	position: relative;
+	display: block;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center
 }
 
 #display{
 	width: 85%;
 	height: 15%;
-	background-color: gray;
-	border-width: 5px;
-	border-color: black;
+	background-color: #7d7d63;
 	text-align: right;
 	position: absolute;
 	top: 2%;
 	left: 7%;
+	font-family: 'digital-clock-font';
+	font-size: 20px;
+	
+	border-style: groove;
+	border-color: black;
+	border-width: 5px;
+
+}  
+
+#result{
+	background-color: #7d7d63;
 }
 
-.button{
-	margin: auto;
+button {
 	padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 2em;
-
+    font-size: 20px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.6);
+    width: 3em;    
+    height: 3em;
+    background-color: #878c8f;   
+    border-radius: 12px;
+    color: #f2f6f7;
+    box-shadow: 1px 1px;
+    margin: 4px;
 }
 
 .operator{
 	margin: auto;
-	padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 2em;
+	display: inline-block;
+    background-color: #878cd8;
+    margin: 4px;
+    
 }
 
 .decimal{
 	margin: auto;
-	padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 2em;
-}
+	display: inline-block;
+    background-color: #878c8f;   
+    margin: 4px;
+}    
 
 .equals{
 	margin: auto;
-	padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 2em;
+	display: inline-block;
+    background-color: #878cd8;
+    margin: 4px;
 }
 
 .actions{
-	margin: auto;
-	padding: 15px 32px;
-    text-align: center;
-    text-decoration: bold;
-    display: inline-block;
-    font-size: 11px;
-    width: 2em;
+	background-color: #d88b93;
+	display: inline-block;
+	text-align:center;
+	width: 100px;
+	line-height: 2em;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 12px;
+	margin-top: 20px;
+
 }
+
+
 

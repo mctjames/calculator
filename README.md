@@ -1,3 +1,6 @@
+•	https://mctjames.github.io/calculator/
+
+
 # calculator
 a javascript calculator
 
